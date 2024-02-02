@@ -1,0 +1,7 @@
+<beanio xmlns="http://www.beanio.org/2012/03">
+    <stream name="fileStream" format="fixedlength">
+        <record name="header" class="org.neurogine.models.Header"/>
+        <record name="body" class="org.neurogine.models.Body"/>
+        <record name="trailer" class="org.neurogine.models.Trailer"/>
+    </stream>
+</beanio>
